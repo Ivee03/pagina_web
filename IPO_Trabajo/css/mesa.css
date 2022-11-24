@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+header {
+    position: relative;
+    max-width: 100%;
+}
+header img{
+    display: block;
+    margin: auto;
+    width: 62%;
+    scale: 100%;
+}
+
+header nav {
+    border: 2px solid blanchedalmond;
+    position: absolute;
+    top: 130px;
+    width: 40%;
+    background-color: #000000af;
+    display: flex;
+    justify-content: center;
+    transform: translateX(440px);
+}
+header h1{
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    border: 2px inset blue;
+}
+
+nav ul {
+    list-style: none;
+
+}
+
+.indiceBox {
+    background: rgb(48, 165, 255);
+    display: table;
+    font-size: 95%;
+    padding: 20px;
+    width: auto;
+    transform:translateY(-400px); 
+    border: medium groove black;
+    font-size: larger;
+}
+.indiceBox .indiceTitulo {
+    font-weight: 700;
+    text-align: center;
+    
+ }
+.indiceBox li, .indiceBox ul, .indiceBox ul li{
+    padding: 0 5px;
+    list-style: outside none none !important;
+    
+} 
+
+nav ul li {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+nav ul li a:hover {
+    font-size: 2.7rem;
+    color: #dfdb06;
+}
+
+body{
+    background-color: rgb(127, 200, 255);
+
+}
+.mesaa{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 62%;
+}
+
+.mesa{
+background-color: rgb(186, 146, 226);
+padding: 1%;
+border: medium double black;
+border-radius: 10%;
+}
+
+footer{
+    text-align: justify;
+    text-align: center;
+
+}
